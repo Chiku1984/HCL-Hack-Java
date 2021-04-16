@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestAll" class="navigator-link">
+              <span class="suite-name border-passed">TestAll</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestAll" class="navigator-link ">
+                    <span>C:\Users\DELL\eclipse-workspace\Policy_Bazar\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestAll" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestAll" class="navigator-link ">
+                    <span>3 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestAll" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestAll" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestAll" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestAll" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestAll" class="hide-methods passed suite-TestAll"> (hide)</a> <!-- hide-methods passed suite-TestAll -->
+                      <a href="#" panel-name="suite-TestAll" class="show-methods passed suite-TestAll"> (show)</a> <!-- show-methods passed suite-TestAll -->
+                    </span>
+                    <div class="method-list-content passed suite-TestAll">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.TravelInsuranceDetailsTest" class="method navigator-link" hash-for-method="checkExcelData(Italy)">checkExcelData(Italy)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.TravelInsuranceDetailsTest" class="method navigator-link" hash-for-method="checkExcelData(France)">checkExcelData(France)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="chooseFuelTypeTest">chooseFuelTypeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="clickCarInsuranceTest">clickCarInsuranceTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="clickProceedButtonTest">clickProceedButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="fillDetailsTest">fillDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.TravelInsuranceDetailsTest" class="method navigator-link" hash-for-method="homePageTitle">homePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.HealthInsuranceMenuItemsTest" class="method navigator-link" hash-for-method="listValuesTest">listValuesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="selectCarBrandTest">selectCarBrandTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="selectCarModelTest">selectCarModelTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="selectCarVariantTest">selectCarVariantTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="selectCityTest">selectCityTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="selectYearTest">selectYearTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestAll" title="testcases.CarInsuranceErrorMessageTest" class="method navigator-link" hash-for-method="takeScreenshotTest">takeScreenshotTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestAll -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestAll" class="panel TestAll">
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TravelInsuranceDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExcelData(Italy)">
+                  </a> <!-- checkExcelData(Italy) -->
+                  <span class="method-name">checkExcelData</span>
+                  <span class="parameters">(Italy)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExcelData(France)">
+                  </a> <!-- checkExcelData(France) -->
+                  <span class="method-name">checkExcelData</span>
+                  <span class="parameters">(France)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTitle">
+                  </a> <!-- homePageTitle -->
+                  <span class="method-name">homePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CarInsuranceErrorMessageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="chooseFuelTypeTest">
+                  </a> <!-- chooseFuelTypeTest -->
+                  <span class="method-name">chooseFuelTypeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCarInsuranceTest">
+                  </a> <!-- clickCarInsuranceTest -->
+                  <span class="method-name">clickCarInsuranceTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProceedButtonTest">
+                  </a> <!-- clickProceedButtonTest -->
+                  <span class="method-name">clickProceedButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillDetailsTest">
+                  </a> <!-- fillDetailsTest -->
+                  <span class="method-name">fillDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCarBrandTest">
+                  </a> <!-- selectCarBrandTest -->
+                  <span class="method-name">selectCarBrandTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCarModelTest">
+                  </a> <!-- selectCarModelTest -->
+                  <span class="method-name">selectCarModelTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCarVariantTest">
+                  </a> <!-- selectCarVariantTest -->
+                  <span class="method-name">selectCarVariantTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCityTest">
+                  </a> <!-- selectCityTest -->
+                  <span class="method-name">selectCityTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectYearTest">
+                  </a> <!-- selectYearTest -->
+                  <span class="method-name">selectYearTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="takeScreenshotTest">
+                  </a> <!-- takeScreenshotTest -->
+                  <span class="method-name">takeScreenshotTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+          <div class="suite-TestAll-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.HealthInsuranceMenuItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="listValuesTest">
+                  </a> <!-- listValuesTest -->
+                  <span class="method-name">listValuesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestAll-class-passed -->
+        </div> <!-- panel TestAll -->
+        <div panel-name="test-xml-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\eclipse-workspace\Policy_Bazar\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;TestAll&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;Smoke&quot;/&gt;
+      &lt;include name=&quot;Regression&quot;/&gt;
+      &lt;include name=&quot;Default&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TravelInsuranceDetailsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TravelInsuranceDetailsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TravelInsuranceDetailsTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CarInsuranceErrorMessageTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.CarInsuranceErrorMessageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CarInsuranceErrorMessageTest --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;HealthInsuranceMenuItemsTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.HealthInsuranceMenuItemsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HealthInsuranceMenuItemsTest --&gt;
+&lt;/suite&gt; &lt;!-- TestAll --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TravelInsuranceDetailsTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CarInsuranceErrorMessageTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HealthInsuranceMenuItemsTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Default</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkExcelData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chooseFuelTypeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCarInsuranceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickProceedButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fillDetailsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listValuesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarBrandTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarModelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarVariantTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCityTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectYearTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">takeScreenshotTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkExcelData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">chooseFuelTypeTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCarInsuranceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickProceedButtonTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fillDetailsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarBrandTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarModelTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarVariantTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCityTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectYearTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">takeScreenshotTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCarInsuranceTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">homePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">listValuesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCarBrandTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestAll');
+function tableData_TestAll() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkExcelData')
+data.setCell(0, 2, 'testcases.TravelInsuranceDetailsTest')
+data.setCell(0, 3, 32295);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkExcelData')
+data.setCell(1, 2, 'testcases.TravelInsuranceDetailsTest')
+data.setCell(1, 3, 28422);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'homePageTitle')
+data.setCell(2, 2, 'testcases.TravelInsuranceDetailsTest')
+data.setCell(2, 3, 8126);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickProceedButtonTest')
+data.setCell(3, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(3, 3, 4813);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillDetailsTest')
+data.setCell(4, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(4, 3, 2223);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'listValuesTest')
+data.setCell(5, 2, 'testcases.HealthInsuranceMenuItemsTest')
+data.setCell(5, 3, 2093);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'chooseFuelTypeTest')
+data.setCell(6, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(6, 3, 1123);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickCarInsuranceTest')
+data.setCell(7, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(7, 3, 966);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectCityTest')
+data.setCell(8, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(8, 3, 744);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'takeScreenshotTest')
+data.setCell(9, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(9, 3, 685);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'selectYearTest')
+data.setCell(10, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(10, 3, 675);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'selectCarBrandTest')
+data.setCell(11, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(11, 3, 528);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'selectCarModelTest')
+data.setCell(12, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(12, 3, 464);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'selectCarVariantTest')
+data.setCell(13, 2, 'testcases.CarInsuranceErrorMessageTest')
+data.setCell(13, 3, 314);
+window.suiteTableData['TestAll']= { tableData: data, tableDiv: 'times-div-TestAll'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-TestAll">
+              </div> <!-- times-div-TestAll -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestAll</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestAll" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TravelInsuranceDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">homePageTitle</span>
+                <span class="method-start">15295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">23429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkExcelData(France)</span>
+                <span class="method-start">26435 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">58734 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">checkExcelData(Italy)</span>
+                <span class="method-start">60116 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">88540 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CarInsuranceErrorMessageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89023 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">clickCarInsuranceTest</span>
+                <span class="method-start">91870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">92838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">clickProceedButtonTest</span>
+                <span class="method-start">93147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">97962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCityTest</span>
+                <span class="method-start">98182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">98932 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCarBrandTest</span>
+                <span class="method-start">99151 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">99682 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCarModelTest</span>
+                <span class="method-start">99939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">100404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">chooseFuelTypeTest</span>
+                <span class="method-start">100708 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">101833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectCarVariantTest</span>
+                <span class="method-start">102105 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">102420 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">selectYearTest</span>
+                <span class="method-start">102768 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">103448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">fillDetailsTest</span>
+                <span class="method-start">103658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">105882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">takeScreenshotTest</span>
+                <span class="method-start">105958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">106644 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.HealthInsuranceMenuItemsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107003 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">listValuesTest</span>
+                <span class="method-start">108958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">flushReports</span>
+                <span class="method-start">111052 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">111257 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

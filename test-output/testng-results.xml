@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-15T14:25:22 IST" name="TestAll" finished-at="2021-04-15T14:26:58 IST" duration-ms="96035">
+    <groups>
+      <group name="Regression">
+        <method signature="TravelInsuranceDetailsTest.checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" name="checkExcelData" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="CarInsuranceErrorMessageTest.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="chooseFuelTypeTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="clickProceedButtonTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="fillDetailsTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarModelTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarVariantTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCityTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectYearTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="takeScreenshotTest" class="testcases.CarInsuranceErrorMessageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="HealthInsuranceMenuItemsTest.listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" name="listValuesTest" class="testcases.HealthInsuranceMenuItemsTest"/>
+      </group> <!-- Smoke -->
+      <group name="Default">
+        <method signature="TravelInsuranceDetailsTest.checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" name="checkExcelData" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="TravelInsuranceDetailsTest.homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" name="homePageTitle" class="testcases.TravelInsuranceDetailsTest"/>
+        <method signature="CarInsuranceErrorMessageTest.chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="chooseFuelTypeTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="clickCarInsuranceTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="clickProceedButtonTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="fillDetailsTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarBrandTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarModelTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCarVariantTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectCityTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="selectYearTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="CarInsuranceErrorMessageTest.takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" name="takeScreenshotTest" class="testcases.CarInsuranceErrorMessageTest"/>
+        <method signature="HealthInsuranceMenuItemsTest.listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" name="listValuesTest" class="testcases.HealthInsuranceMenuItemsTest"/>
+      </group> <!-- Default -->
+    </groups>
+    <test started-at="2021-04-15T14:25:22 IST" name="TravelInsuranceDetailsTest" finished-at="2021-04-15T14:26:36 IST" duration-ms="73727">
+      <class name="testcases.TravelInsuranceDetailsTest">
+        <test-method signature="homePageTitle()[pri:1, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:25:23 IST" name="homePageTitle" finished-at="2021-04-15T14:25:31 IST" duration-ms="8126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitle -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:25:31 IST" name="flushReports" finished-at="2021-04-15T14:25:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:25:34 IST" name="checkExcelData" data-provider="dp" finished-at="2021-04-15T14:26:06 IST" duration-ms="32295" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[France]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcelData -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:26:06 IST" name="flushReports" finished-at="2021-04-15T14:26:07 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="checkExcelData(java.lang.String)[pri:2, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:26:07 IST" name="checkExcelData" data-provider="dp" finished-at="2021-04-15T14:26:36 IST" duration-ms="28422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Italy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcelData -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:26:36 IST" name="flushReports" finished-at="2021-04-15T14:26:36 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testcases.TravelInsuranceDetailsTest -->
+    </test> <!-- TravelInsuranceDetailsTest -->
+    <test started-at="2021-04-15T14:26:36 IST" name="CarInsuranceErrorMessageTest" finished-at="2021-04-15T14:26:54 IST" duration-ms="17877">
+      <class name="testcases.CarInsuranceErrorMessageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:36 IST" name="setup" finished-at="2021-04-15T14:26:39 IST" duration-ms="2847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickCarInsuranceTest()[pri:1, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:39 IST" name="clickCarInsuranceTest" finished-at="2021-04-15T14:26:40 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCarInsuranceTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:40 IST" name="flushReports" finished-at="2021-04-15T14:26:40 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="clickProceedButtonTest()[pri:2, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:40 IST" name="clickProceedButtonTest" finished-at="2021-04-15T14:26:45 IST" duration-ms="4813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedButtonTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:45 IST" name="flushReports" finished-at="2021-04-15T14:26:45 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCityTest()[pri:3, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:45 IST" name="selectCityTest" finished-at="2021-04-15T14:26:46 IST" duration-ms="744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCityTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:46 IST" name="flushReports" finished-at="2021-04-15T14:26:46 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarBrandTest()[pri:4, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:46 IST" name="selectCarBrandTest" finished-at="2021-04-15T14:26:47 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarBrandTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:47 IST" name="flushReports" finished-at="2021-04-15T14:26:47 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarModelTest()[pri:5, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:47 IST" name="selectCarModelTest" finished-at="2021-04-15T14:26:48 IST" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarModelTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:48 IST" name="flushReports" finished-at="2021-04-15T14:26:48 IST" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="chooseFuelTypeTest()[pri:6, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:48 IST" name="chooseFuelTypeTest" finished-at="2021-04-15T14:26:49 IST" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chooseFuelTypeTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:49 IST" name="flushReports" finished-at="2021-04-15T14:26:49 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectCarVariantTest()[pri:7, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:49 IST" name="selectCarVariantTest" finished-at="2021-04-15T14:26:50 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCarVariantTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:50 IST" name="flushReports" finished-at="2021-04-15T14:26:50 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="selectYearTest()[pri:8, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:50 IST" name="selectYearTest" finished-at="2021-04-15T14:26:51 IST" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectYearTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:51 IST" name="flushReports" finished-at="2021-04-15T14:26:51 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="fillDetailsTest()[pri:9, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:51 IST" name="fillDetailsTest" finished-at="2021-04-15T14:26:53 IST" duration-ms="2223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetailsTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:53 IST" name="flushReports" finished-at="2021-04-15T14:26:53 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method signature="takeScreenshotTest()[pri:10, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:53 IST" name="takeScreenshotTest" finished-at="2021-04-15T14:26:54 IST" duration-ms="685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshotTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.CarInsuranceErrorMessageTest@5860f3d7]" started-at="2021-04-15T14:26:54 IST" name="flushReports" finished-at="2021-04-15T14:26:54 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testcases.CarInsuranceErrorMessageTest -->
+    </test> <!-- CarInsuranceErrorMessageTest -->
+    <test started-at="2021-04-15T14:26:54 IST" name="HealthInsuranceMenuItemsTest" finished-at="2021-04-15T14:26:58 IST" duration-ms="4247">
+      <class name="testcases.TravelInsuranceDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TravelInsuranceDetailsTest@74cadd41]" started-at="2021-04-15T14:25:07 IST" name="setup" finished-at="2021-04-15T14:25:22 IST" duration-ms="15201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testcases.TravelInsuranceDetailsTest -->
+      <class name="testcases.HealthInsuranceMenuItemsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" started-at="2021-04-15T14:26:54 IST" name="setup" finished-at="2021-04-15T14:26:56 IST" duration-ms="1955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="listValuesTest()[pri:1, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" started-at="2021-04-15T14:26:56 IST" name="listValuesTest" finished-at="2021-04-15T14:26:58 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listValuesTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" started-at="2021-04-15T14:26:58 IST" name="flushReports" finished-at="2021-04-15T14:26:58 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.HealthInsuranceMenuItemsTest@3383649e]" started-at="2021-04-15T14:26:58 IST" name="closeBrowser" finished-at="2021-04-15T14:27:03 IST" duration-ms="4816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.HealthInsuranceMenuItemsTest -->
+    </test> <!-- HealthInsuranceMenuItemsTest -->
+  </suite> <!-- TestAll -->
+</testng-results>

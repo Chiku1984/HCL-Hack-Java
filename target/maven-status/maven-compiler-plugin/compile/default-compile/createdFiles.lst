@@ -1,0 +1,10 @@
+base\TestBase.class
+util\TravelInsuranceExcel.class
+pages\CarInsurancePage.class
+pages\HealthInsurancePage.class
+pages\HomePage.class
+util\Screenshot.class
+pages\TravelInsurancePage.class
+util\ExtentReportManager.class
+util\ReadExcel.class
+pages\InsurancePlanPage.class
