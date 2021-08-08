@@ -7,7 +7,7 @@
   <groupId>Ss</groupId>
   <artifactId>Policy_Bazar</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
 
   <name>Policy_Bazar</name>
   <url>http://www.example.com</url>
