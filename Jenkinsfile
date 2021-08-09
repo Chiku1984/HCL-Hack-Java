@@ -14,13 +14,13 @@ pipeline {
                     '''
             }
         }
-		//stage ('SonarQube Analysis') {
-	      //steps {
-		  //withSonarQubeEnv('sonar-1') {
-		  //sh "/usr/share/maven/bin/mvn sonar:sonar"
-		  //}
-        //}       
-       //}
+		stage ('SonarQube Analysis') {
+	      steps {
+		  withSonarQubeEnv('sonar-1') {
+		  sh "/usr/share/maven/bin/mvn sonar:sonar"
+		  }
+          }       
+       }
         stage ('Build Maven') {
             steps {
                 //sh 'mvn -Dmaven.test.failure.ignore=true install' 
